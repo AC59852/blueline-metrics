@@ -1,6 +1,6 @@
 import teamInfo from '$lib/teamInfo/teams.json';
 
-export function load({params}) {
+export async function load({params}) {
 
   const isUpperCase = (str) => {
     return str === str.toUpperCase();
