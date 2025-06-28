@@ -28,7 +28,6 @@ export async function load({ params }) {
       gameId: game.id,
       gameDate: game.gameDate,
       opponentTeamName: opponentTeam.abbrev,
-      homeTeam: game.homeTeam,
       isHome,
       result,
       score: `${teamScore} - ${opponentScore}`,
@@ -62,7 +61,7 @@ export async function load({ params }) {
     teamId: teamAbbrev.toLowerCase(),
     recentGames: formattedGames,
     teamInfo: {
-      name: `${team.teamName.default}`,
+      name: team.teamName.default,
       wins: team.wins,
       losses: team.losses,
       ot: team.otLosses,
