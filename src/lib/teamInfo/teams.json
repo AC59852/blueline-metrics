@@ -1,7 +1,258 @@
 [
   {
+    "id": "ANA",
+    "name": "Anaheim Ducks",
+    "foundingYear": 1993,
+    "arena": "Honda Center",
+    "primaryColor": "#f47a38",
+    "secondaryColor": "#B9975B"
+  },
+  {
+    "id": "BOS",
+    "name": "Boston Bruins",
+    "foundingYear": 1924,
+    "arena": "TD Garden",
+    "primaryColor": "#ffb81c",
+    "secondaryColor": "#000000"
+  },
+  {
+    "id": "BUF",
+    "name": "Buffalo Sabres",
+    "foundingYear": 1970,
+    "arena": "KeyBank Center",
+    "primaryColor": "#003087",
+    "secondaryColor": "#FFB81C"
+  },
+  {
+    "id": "CAR",
+    "name": "Carolina Hurricanes",
+    "foundingYear": 1997,
+    "arena": "Lenovo Center",
+    "primaryColor": "#CE1126",
+    "secondaryColor": "#000000"
+  },
+  {
+    "id": "CBJ",
+    "name": "Columbus Blue Jackets",
+    "foundingYear": 2000,
+    "arena": "Nationwide Arena",
+    "primaryColor": "#002654",
+    "secondaryColor": "#ce1126"
+  },
+  {
+    "id": "CGY",
+    "name": "Calgary Flames",
+    "foundingYear": 1972,
+    "arena": "Scotiabank Saddledome",
+    "primaryColor": "#D2001C",
+    "secondaryColor": "#FAAF19"
+  },
+  {
+    "id": "CHI",
+    "name": "Chicago Blackhawks",
+    "foundingYear": 1926,
+    "arena": "United Center",
+    "primaryColor": "#CF0A2C",
+    "secondaryColor": "#FF671B"
+  },
+  {
+    "id": "COL",
+    "name": "Colorado Avalanche",
+    "foundingYear": 1995,
+    "arena": "Ball Arena",
+    "primaryColor": "#6F263D",
+    "secondaryColor": "#236192"
+  },
+  {
+    "id": "DAL",
+    "name": "Dallas Stars",
+    "foundingYear": 1967,
+    "arena": "American Airlines Center",
+    "primaryColor": "#006847",
+    "secondaryColor": "#8F8F8C"
+  },
+  {
+    "id": "DET",
+    "name": "Detroit Red Wings",
+    "foundingYear": 1926,
+    "arena": "Little Caesars Arena",
+    "primaryColor": "#ce1126",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "EDM",
+    "name": "Edmonton Oilers",
+    "foundingYear": 1972,
+    "arena": "Rogers Place",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#FF4C00"
+  },
+  {
+    "id": "FLA",
+    "name": "Florida Panthers",
+    "foundingYear": 1993,
+    "arena": "American Bank Arena",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#c8102E"
+  },
+  {
+    "id": "LAK",
+    "name": "Los Angeles Kings",
+    "foundingYear": 1967,
+    "arena": "Crypto.com Arena",
+    "primaryColor": "#111111",
+    "secondaryColor": "#A2AAAD"
+  },
+  {
+    "id": "MIN",
+    "name": "Minnesota Wild",
+    "foundingYear": 2000,
+    "arena": "Xcel Energy Center",
+    "primaryColor": "#154734",
+    "secondaryColor": "#A6192E"
+  },
+  {
+    "id": "MTL",
+    "name": "Montreal Canadiens",
+    "foundingYear": 1909,
+    "arena": "Bell Centre",
+    "primaryColor": "#AF1E2D",
+    "secondaryColor": "#192168"
+  },
+  {
+    "id": "NJD",
+    "name": "New Jersey Devils",
+    "foundingYear": 1982,
+    "arena": "Prudential Center",
+    "primaryColor": "#CE1126",
+    "secondaryColor": "#000000"
+  },
+  {
+    "id": "NSH",
+    "name": "Nashville Predators",
+    "foundingYear": 1998,
+    "arena": "Bridgestone Arena",
+    "primaryColor": "#FFB81C",
+    "secondaryColor": "#041E42"
+  },
+  {
+    "id": "NYI",
+    "name": "New York Islanders",
+    "foundingYear": 1972,
+    "arena": "UBS Arena",
+    "primaryColor": "#00539b",
+    "secondaryColor": "#f47d30"
+  },
+  {
+    "id": "NYR",
+    "name": "New York Rangers",
+    "foundingYear": 1926,
+    "arena": "Madison Square Garden",
+    "primaryColor": "#0038A8",
+    "secondaryColor": "#CE1126"
+  },
+  {
+    "id": "OTT",
+    "name": "Ottawa Senators",
+    "foundingYear": 1992,
+    "arena": "Canadian Tire Centre",
+    "primaryColor": "#DA1A32",
+    "secondaryColor": "#000000"
+  },
+  {
+    "id": "PHI",
+    "name": "Philadelphia Flyers",
+    "foundingYear": 1967,
+    "arena": "Wells Fargo Center",
+    "primaryColor": "#F74902",
+    "secondaryColor": "#000000"
+  },
+  {
+    "id": "PIT",
+    "name": "Pittsburgh Penguins",
+    "foundingYear": 1967,
+    "arena": "PPG Paints Arena",
+    "primaryColor": "#000000",
+    "secondaryColor": "#CFC493"
+  },
+  {
+    "id": "SEA",
+    "name": "Seattle Kraken",
+    "foundingYear": 2021,
+    "arena": "Climate Pledge Arena",
+    "primaryColor": "#001628",
+    "secondaryColor": "#99d9d9"
+  },
+  {
+    "id": "SJS",
+    "name": "San Jose Sharks",
+    "foundingYear": 1991,
+    "arena": "SAP Center",
+    "primaryColor": "#006D75",
+    "secondaryColor": "#EA7200"
+  },
+  {
+    "id": "STL",
+    "name": "St. Louis Blues",
+    "foundingYear": 1967,
+    "arena": "Enterprise Center",
+    "primaryColor": "#002F87",
+    "secondaryColor": "#FCB514"
+  },
+  {
+    "id": "TBL",
+    "name": "Tampa Bay Lightning",
+    "foundingYear": 1992,
+    "arena": "Amalie Arena",
+    "primaryColor": "#002868",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
     "id": "TOR",
+    "name": "Toronto Maple Leafs",
     "foundingYear": 1917,
-    "arena": "Scotiabank Arena"
+    "arena": "Scotiabank Arena",
+    "primaryColor": "#00205b",
+    "secondaryColor": "#ffffff"
+  },
+  {
+    "id": "UTA",
+    "name": "Utah Mammoth",
+    "foundingYear": 2024,
+    "arena": "Delta Center",
+    "primaryColor": "#7AB2E0",
+    "secondaryColor": "#010101"
+  },
+  {
+    "id": "VAN",
+    "name": "Vancouver Canucks",
+    "foundingYear": 1970,
+    "arena": "Rogers Arena",
+    "primaryColor": "#00205B",
+    "secondaryColor": "#00843d"
+  },
+  {
+    "id": "VGK",
+    "name": "Vegas Golden Knights",
+    "foundingYear": 2017,
+    "arena": "T-Mobile Arena",
+    "primaryColor": "#B4975A",
+    "secondaryColor": "#333f42"
+  },
+  {
+    "id": "WPG",
+    "name": "Winnipeg Jets",
+    "foundingYear": 1999,
+    "arena": "Canada Life Centre",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#004C97"
+  },
+  {
+    "id": "WSH",
+    "name": "Washington Capitals",
+    "foundingYear": 1974,
+    "arena": "Capital One Arena",
+    "primaryColor": "#041E42",
+    "secondaryColor": "#C8102E"
   }
 ]
