@@ -1,4 +1,5 @@
 <script>
+  import teamInfo from "$lib/teamInfo/teams.json";
 
   let divisions = [
     { name: 'Atlantic Division' },
@@ -7,12 +8,10 @@
     { name: 'Pacific Division' }
   ]
 
-  let teams = [
-    { name: 'Boston Bruins', division: 'Atlantic Division', logo: '/path/to/logo1.png' },
-    { name: 'New York Rangers', division: 'Metropolitan Division', logo: '/path/to/logo2.png' },
-    { name: 'Chicago Blackhawks', division: 'Central Division', logo: '/path/to/logo3.png' },
-    { name: 'Los Angeles Kings', division: 'Pacific Division', logo: '/path/to/logo4.png' }
-  ];
+  let teams = teamInfo.map(team => ({
+    id: team.id,
+    name: team.name,
+  }));
 
   let selected = $state('all');
 
@@ -46,9 +45,10 @@
     <ul class="teams__list">
       {#each filteredTeams as team}
         <li class="teams__team">
-          <h2>{team.name}</h2>
-          <p>{team.division}</p>
-          <img src={team.logo} alt={team.name + " Logo"}>
+          <a href="/team/{team.id}" class="teams__team-link">
+            <h2>{team.name}</h2>
+            <img src="https://assets.nhle.com/logos/nhl/svg/{team.id}_dark.svg" alt={team.name + " Logo"}>
+          </a>
         </li>
       {/each}
     </ul>

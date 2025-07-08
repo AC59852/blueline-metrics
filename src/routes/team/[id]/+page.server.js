@@ -39,6 +39,8 @@ export async function load({ params }) {
       wins: team.wins,
       losses: team.losses,
       otLosses: team.otLosses,
+      divisionName: team.divisionName,
+      divisionPlacement: team.divisionSequence,
       logo: logoUrl,
       leagueRank: index + 1 // 1-based rank
     },

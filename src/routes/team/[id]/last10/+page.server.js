@@ -1,5 +1,3 @@
-import teamInfo from '$lib/teamInfo/teams.json';
-
 export async function load({ params }) {
   const teamAbbrev = params.id.toUpperCase();
 

@@ -1,14 +1,9 @@
 <script>
   import { page } from "$app/stores";
-  import NavComponent from "$lib/components/NavComponent.svelte";
 
   export let data;
-
-  let teamId = $page.params.id;
-
-  console.log(data);
 </script>
-<main class="last10">
+<section class="last10">
   <section class="last10__team">
     <img src="{data.teamInfo.logo}" alt="{data.teamInfo.name} Logo" class="last10__teamLogo">
     <div>
@@ -40,4 +35,4 @@
       </tbody>
     </table>
   </section>
-</main>
+</section>
